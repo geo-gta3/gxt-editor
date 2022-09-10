@@ -87,4 +87,13 @@
         </plugins>
     </build>
 
+    <repositories>
+        <!-- Repository of GXT -->
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/geo-gta3/gxt</url>
+        </repository>
+    </repositories>
+
 </project>
