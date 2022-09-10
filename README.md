@@ -1,2 +1,3 @@
 # GXT Editor
-GXT editor for GTA III
+
+GXT editor for GTA 3
