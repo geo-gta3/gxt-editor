@@ -7,7 +7,7 @@
     <groupId>ge.vakho</groupId>
     <artifactId>gxt-editor</artifactId>
     <version>2.0.1</version>
-    <name>gxt-editor</name>
+    <name>GXT Editor</name>
 
     <properties>
         <java.version>17</java.version>
@@ -78,7 +78,7 @@
 
                     <!-- When set, creates a zip of the resulting runtime image with specified
                         compression level -->
-                    <jlinkZipName>${project.name}-zip</jlinkZipName>
+                    <jlinkZipName>${project.name} ${project.version}</jlinkZipName>
                     <compress>2</compress>
 
                     <mainClass>ge.vakho.gxt.editor/ge.vakho.gxt.editor.GXTEditor</mainClass>
